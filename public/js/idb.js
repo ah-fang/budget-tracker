@@ -65,7 +65,7 @@ function uploadTransaction() {
             const transactionObjectStore = transaction.objectStore('new_transaction');
 
             // clear all items in storage
-            transactionObjectStore.clearAll();
+            transactionObjectStore.clear();
             alert('All saved transactions have been added to the tracker!');
             })
             .catch(err => {
