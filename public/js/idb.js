@@ -29,7 +29,6 @@ function saveRecord(record) {
     transactionObjectStore.add(record);
 }
 
-// more functions 
 // listen for app coming back online
 function uploadTransaction() {
     // open a transaction on your db

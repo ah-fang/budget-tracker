@@ -44,7 +44,7 @@
     "name": "budget-tracker",
     "short_name": "budget",
     "theme_color": "#024601",
-    "background_color": "#000000",
+    "background_color": "#194D33",
     "start_url": "./index.html",
     "display": "standalone" 
 }
